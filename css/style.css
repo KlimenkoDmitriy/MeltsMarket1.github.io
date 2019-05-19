@@ -1,0 +1,279 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header {
+	height: 100px;
+	padding: 10px 0;
+	background-color: rgb(83,121,173);
+	background-size: cover;
+}
+
+a  {
+	text-decoration: none;
+}
+#logo {
+	height: 85px;
+	border-radius: 25px 25px;
+	float: left;
+	background: url('../img/Logo.png') no-repeat;
+	background-size: cover;
+}
+
+#headerSearch{
+  	float: left;
+  	margin-top: 40px;
+}
+#searchLine{
+  	height: 40px;
+  	padding-left: 15px;
+  	font-size: 20px;
+  	border-radius: 42px;
+  	border: 2px solid #324b4e;
+  	background: white;
+  	outline: none;
+  	position: relative;
+  	transition: .3s linear;
+}
+#searchLine:focus {
+	width: 300px;
+}
+#searchButton{
+    border: medium none;
+    border-radius: 40px 40px;
+    cursor: pointer;
+    font-size: 16px !important;
+  	width: 30px;
+ 	height: 30px;
+    z-index: 105;
+    transition: all 0.1s ease-in-out 0s;
+    color: #324b4e;
+    box-shadow: 0 0 3px rgba(8, 10, 9, 0.25) inset;	  
+}
+#searchButton:hover {
+    box-shadow: 0 0 3px;
+    color: rgb(83,121,173);
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    top: -1px;
+}
+
+#account {
+	margin-top: 20px;
+}
+#account a {
+	color: white;
+}
+#navigation{
+	padding: 0;
+	margin-top: 30px;
+}
+#navigation li{
+	list-style-type: none;
+	text-align: left;
+}
+#navigation a {
+        color: rgb(155,155,155);
+        padding: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+}
+#navigation a i{
+	margin-right: 20px;
+	text-align: center;
+	padding-left: 0px;
+}
+#navigation a:hover {
+	border-radius: 25px 25px;
+    background-color: rgba(83,121,173,0.25);
+    
+}
+.products{
+	font-size: 18px;
+}
+
+.contacts h5{
+	color: black;
+}
+.contacts{
+	color: rgb(155,155,155);
+}
+.ourStores h5{
+	color: black;
+}
+.ourStores{
+	color: rgb(155,155,155);
+}
+#openMap{
+	margin-top: 20px;
+    border: medium none;
+    border-radius: 40px 40px;
+    cursor: pointer;
+    font-size: 18px !important;
+  	width: 200px;
+ 	height: 30px;
+    z-index: 105;
+    transition: .15s ease-in-out;
+    background-color: rgb(83,121,173);
+    color: white;
+    box-shadow: 0 0 40px 40px rgb(83,121,173) inset, 0 0 0 0 rgb(83,121,173);	  
+}
+#openMap:hover {
+	background-color: white;
+    box-shadow: 0 0 10px 0 rgb(83,121,173) inset, 0 0 10px 5px rgb(83,121,173);
+    color: rgb(83,121,173);
+    font-weight: bold;
+}
+
+.main {
+	text-align: center;
+}
+.headerMostSale {
+	text-align: left;
+	margin-top: 30px;
+}
+.fa-dollar-sign {
+	margin-left: 5px;
+	text-decoration: none;
+	color: rgb(83,121,173);
+	font-size: 20px;
+}
+.fa-cart-arrow-down{
+	margin-right: 10px;
+}
+#carousel{
+	display: inline-block;
+}
+.catalog-mostSale{
+	margin-top: 30px;
+}
+.mostSale {
+	border-bottom: 2px solid rgb(174,174,174);
+	border-right: 2px solid rgb(174,174,174);
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.productImage{
+	height: 200px;
+	background: url('../img/400GalaR.jpg') no-repeat;
+	background-size: contain;
+}
+.productName {
+	margin-top: 10px;
+	text-align: left;
+}
+.productPrice{
+	margin-top: 10px;
+}
+.col-md-7.price{
+	padding-left: 0px;
+	text-align: left;
+}
+.addTo a{
+	text-decoration: none;
+	color: rgb(83,121,173);
+	font-size: 20px;
+}
+
+
+.fa-thumbs-up{
+	margin-right: 10px;
+}
+.headerMostGood {
+	text-align: left;
+	margin-top: 30px;
+}
+#carouselSecond{
+	padding-top: 20px;
+	height: 324px;
+}
+.mostGood {
+	border-bottom: 2px solid rgb(174,174,174);
+	border-right: 2px solid rgb(174,174,174);
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.fa-money-bill-wave{
+	margin-right: 10px;
+}
+
+
+.headerLowerPrice {
+	text-align: left;
+	margin-top: 30px;
+}
+#carouselThird{
+	
+}
+.catalog-lowerPrice {
+    margin-top: 30px;
+}
+.lowerPrice {
+	border-bottom: 2px solid rgb(174,174,174);
+	border-right: 2px solid rgb(174,174,174);
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	margin-top: -60px !important;
+	background-image: none !important;
+}
+.carousel-control-prev {
+    left: -10px !important;
+    padding-right: 20px !important;
+    width: 60px !important;
+}
+.carousel-control-next {
+    right: 20px !important;
+    width: 60px !important;
+}
+.carousel-control-prev-icon:after{
+	content: '<';
+	font-weight: bold;
+	font-size: 50px;
+	color: blue;
+}
+.carousel-control-next-icon:after{
+	content: '>';
+	font-weight: bold;
+	font-size: 50px;
+	color: blue;
+}
+.carousel-control-next-icon:hover:after{
+    content: '>';
+    font-size: 55px;
+    color: rgb(83,121,173);
+    font-weight: bold;
+}
+.carousel-control-prev-icon:hover:after{
+	content: '<';
+    font-size: 55px;
+    color: rgb(83,121,173);
+    font-weight: bold;
+}
+
+
+footer{
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+	height: 200px;
+	background-color: rgb(83,121,173);
+	background-size: cover;
+}
+h5{
+	padding-top: 20px;
+}
+.info{
+	padding-top: 5px;
+}
+.MeltsMarket{
+	font-weight: bold;
+}
+
+
